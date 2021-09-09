@@ -1,0 +1,122 @@
+:root{
+    --purpleDark : #6F439C;
+    --lightblack : #353239;
+    --dark: #2B292E;
+}
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+header{
+    background: var(--purpleDark);
+    color: white;
+    padding: 30px;
+    padding-left: 250px;
+}
+section.container {
+    background: var(--dark);
+    min-height: 451px;
+}
+.main{
+    background-color: var(--lightblack);
+}
+.inner-main{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.search-sec {
+    width: 50%;
+    padding: 20px;
+    background-color: var(--dark);
+}
+.search-sec .search-input{
+    padding: 5px;
+}
+
+.btn{
+    background-color: var(--purpleDark);
+    color: white;
+    padding: 6px 15px;
+    border: 1px solid var(--purpleDark);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.add-rec-btn {
+    width: 50%;
+    background: var(--lightblack);
+    padding: 20px;
+}
+.add-recipes{
+    display: flex;
+}
+.recipe-sec , .insert-recipe-sec{
+    width: 50%;
+    padding: 15px;
+}
+.insert-recipe-sec{
+    background-color: var(--lightblack);
+    display: flex;
+    flex-wrap: wrap;
+    height: 55vh;
+    overflow-y: scroll;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input, textarea {
+    padding: 5px;
+}
+.search-input:focus, input:focus, textarea:focus{
+    border: 2px solid var(--dark);
+    outline: none;
+}
+.add-new-recipe{
+    margin-top: 20px;
+}
+.recipe-ings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.warn{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 6px 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.rec-item {
+    background-color: white;
+    color: black;
+    width: 250px;
+    margin: 0px 33px;
+    margin-bottom: 30px;
+}
+
+p.recipe-desc, h1.recipe-name {
+    padding-left: 20px;
+}
+
+
+.hide{
+    opacity: 0;
+}
+.hideDisplay {
+    display: none;
+}
+img {
+    width: 250px;
+    
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="recipe.css">
+    <title>The Recipe App</title>
+</head>
+<body>
+    <header>
+        <h1>The Recipe App</h1>
+        <p>What recipe do you want to save today?</p>
+        <p><strong>Copy This URL: </strong> https://source.unsplash.com/1600x900/?recipe</p>
+        
+        </header>
+    <section class="container">
+        <div class="main">
+            <div class="inner-main">
+                <div class="add-rec-btn">
+                    <button class="add-recipe btn">Add Recipe</button>
+                </div>
+                <div class="search-sec">
+                    <input type="search" class="search-input" placeholder="search">
+                </div>
+            </div>
+        </div>
+        <div class="add-recipes">
+            <div class="recipe-sec">
+                <div class="recipe hide">
+                    <input type="text" class="rec-name" placeholder="Add a recipe name">
+                    <input type="text" class="rec-img-src" placeholder="Add a recipe image src">
+                    <textarea name="textarea" id="rec-desc" cols="50" rows="10" placeholder="Recipe Steps"></textarea>
+                    <button class="btn add-new-recipe">Add new Recipe</button>
+                </div>
+            </div>
+            <div class="insert-recipe-sec">
+
+            </div>
+        </div>
+        
+    </section>
+    <script src="recipe.js"></script>
+</body>
+</html>
